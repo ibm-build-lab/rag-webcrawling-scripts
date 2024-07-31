@@ -17,6 +17,6 @@ Helper scripts:
 
 - `pdf-links.py`: get all pdfs from urls links
 - `get-article.py`: navigate to article within html page
-- `convert-jsonl-to-json.py`: converts 
+- `convert-jsonl-to-json.py`: converts newline JSON to JSON
 - `find-missing-links.py`: Verify that links from .csv are in fact missing
 
