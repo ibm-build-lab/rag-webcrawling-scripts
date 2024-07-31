@@ -6,7 +6,7 @@ import sqlite3
 import jsonlines  # For working with JSONL format
 
 def create_table():
-    connection = sqlite3.connect('juniper_website_documentation.db')
+    connection = sqlite3.connect('company_website_documentation.db')
     cursor = connection.cursor()
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS data_table (
@@ -19,7 +19,7 @@ def create_table():
     connection.close()
 # Function to insert data into SQL database
 def insert_into_db(url, data):
-    connection = sqlite3.connect('juniper_website_documentation.db')
+    connection = sqlite3.connect('company_website_documentation.db')
     cursor = connection.cursor()
     cursor.execute('INSERT INTO data_table (url, data) VALUES (?, ?)', (url, json.dumps(data)))
     connection.commit()
