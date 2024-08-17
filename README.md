@@ -1,6 +1,29 @@
 # Webcrawling scripts using Beautiful Soup
 This repo contains scripts used to crawl websites and store documents to be indexed for RAG solutions.
 
+How to run these scripts locally: 
+
+1. Clone this repository
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd <your-project>
+    ```
+
+3. Create the Enviroment, Activate it
+
+    Python Virtual Environment
+
+    ```bash
+    python -m venv assetEnv
+    source assetEnv/bin/activate
+    ```
+5. Run the scripts:
+
+    ```bash
+    python <script>.py
+    ```
 The order to run the scripts: 
 
 1) run `get-urls-from-sitemap.py` to get urls from sitemap
