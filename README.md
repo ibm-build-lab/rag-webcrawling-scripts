@@ -43,3 +43,7 @@ Helper scripts:
 - `convert-jsonl-to-json.py`: converts newline JSON to JSON
 - `find-missing-links.py`: Verify that links from .csv are in fact missing
 
+## Additional scripts to do webcrawling: 
+
+[app_webcrawl.py](./app_webcrawl.py)
+[app_webcrawl_complex.py](./app_webcrawl_complex.py)
