@@ -3,7 +3,7 @@
 # 1) performs an initial crawl
 # 2) extracts links and headings
 # 3) extracts metadata
-# 4) implements crawl logic to add urls to quey extracing metadata, recursively discovering more URLS to crawl
+# 4) implements crawl logic to add urls to query, extracting metadata, recursively discovering more URLS to crawl
 # 5) indexes data into Elasticsearch
 # 
 # This code was available at https://elkutils.com/blog/2342/how-to-crawl-the-contents-of-your-website-into-elasticsearch/is
